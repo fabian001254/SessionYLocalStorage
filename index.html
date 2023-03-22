@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <main>
+            <div class="row d-flex justify-content-between">
+                <div class="col-md-5 mt-5" id="session">
+                    <form action="">
+                        <fieldset>
+                            <h1 class="text-center">SessionStorage</h1>
+                            <div class="mb-3">
+                                <label for="nombres">Nombre</label>
+                                <input type="text" name="nombres" class="form-control" id="nombres">
+                            </div>
+                            <div class="mb-3">
+                                <label for="apellidos">Apellido</label>
+                                <input type="text" class="form-control" name="apellidos" id="apellidos">
+                            </div>
+                            <button class="btn btn-success" id="guardarS">Guardar</button>
+                            <button class="btn btn-danger" id="limpiarS">Limpiar</button>
+                        </fieldset>
+                    </form>                                        
+                </div> 
+            <div class="col-md-5 mt-5" id="local">
+                <div class="col">
+                    <form action="">
+                        <fieldset>
+                            <h1 class="text-center">LocalStorage</h1>
+                            <div class="mb-3">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" name="nombrel" class="form-control" id="nombrel">
+                            </div>
+                            <div class="mb-3">
+                                <label for="apellido"">Apellido</label>
+                                <input type="text" class="form-control" name="apellidol" id="apellidol">
+                            </div>
+                            <button class="btn btn-success" id="guardarL">Guardar</button>
+                            <button class="btn btn-danger" id="limpiarL">Limpiar</button>
+                        </fieldset>
+                    </form>
+                </div>            
+            </div>
+        </div>
+    </main>
+    <script src="js.js"></script>
+</body>
+</html>
